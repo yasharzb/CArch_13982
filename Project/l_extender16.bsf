@@ -1,0 +1,155 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 200 336)
+	(text "l_extender16" (rect 5 0 85 15)(font "Comic Sans MS" (font_size 8)))
+	(text "inst" (rect 8 303 26 316)(font "Comic Sans MS" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "in[31..0]" (rect 0 0 50 15)(font "Comic Sans MS" (font_size 8)))
+		(text "in[31..0]" (rect 21 27 71 42)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "out0_[31..0]" (rect 0 0 74 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out0_[31..0]" (rect 89 27 163 42)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 32)(pt 168 32)(line_width 3))
+	)
+	(port
+		(pt 184 48)
+		(output)
+		(text "out1_[31..0]" (rect 0 0 71 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out1_[31..0]" (rect 92 43 163 58)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 48)(pt 168 48)(line_width 3))
+	)
+	(port
+		(pt 184 64)
+		(output)
+		(text "out2_[31..0]" (rect 0 0 74 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out2_[31..0]" (rect 89 59 163 74)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 64)(pt 168 64)(line_width 3))
+	)
+	(port
+		(pt 184 80)
+		(output)
+		(text "out3_[31..0]" (rect 0 0 74 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out3_[31..0]" (rect 89 75 163 90)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 80)(pt 168 80)(line_width 3))
+	)
+	(port
+		(pt 184 96)
+		(output)
+		(text "out4_[31..0]" (rect 0 0 74 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out4_[31..0]" (rect 89 91 163 106)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 96)(pt 168 96)(line_width 3))
+	)
+	(port
+		(pt 184 112)
+		(output)
+		(text "out5_[31..0]" (rect 0 0 74 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out5_[31..0]" (rect 89 107 163 122)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 112)(pt 168 112)(line_width 3))
+	)
+	(port
+		(pt 184 128)
+		(output)
+		(text "out6_[31..0]" (rect 0 0 74 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out6_[31..0]" (rect 89 123 163 138)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 128)(pt 168 128)(line_width 3))
+	)
+	(port
+		(pt 184 144)
+		(output)
+		(text "out7_[31..0]" (rect 0 0 74 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out7_[31..0]" (rect 89 139 163 154)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 144)(pt 168 144)(line_width 3))
+	)
+	(port
+		(pt 184 160)
+		(output)
+		(text "out8_[31..0]" (rect 0 0 74 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out8_[31..0]" (rect 89 155 163 170)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 160)(pt 168 160)(line_width 3))
+	)
+	(port
+		(pt 184 176)
+		(output)
+		(text "out9_[31..0]" (rect 0 0 74 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out9_[31..0]" (rect 89 171 163 186)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 176)(pt 168 176)(line_width 3))
+	)
+	(port
+		(pt 184 192)
+		(output)
+		(text "out10_[31..0]" (rect 0 0 80 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out10_[31..0]" (rect 83 187 163 202)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 192)(pt 168 192)(line_width 3))
+	)
+	(port
+		(pt 184 208)
+		(output)
+		(text "out11_[31..0]" (rect 0 0 77 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out11_[31..0]" (rect 86 203 163 218)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 208)(pt 168 208)(line_width 3))
+	)
+	(port
+		(pt 184 224)
+		(output)
+		(text "out12_[31..0]" (rect 0 0 80 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out12_[31..0]" (rect 83 219 163 234)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 224)(pt 168 224)(line_width 3))
+	)
+	(port
+		(pt 184 240)
+		(output)
+		(text "out13_[31..0]" (rect 0 0 80 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out13_[31..0]" (rect 83 235 163 250)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 240)(pt 168 240)(line_width 3))
+	)
+	(port
+		(pt 184 256)
+		(output)
+		(text "out14_[31..0]" (rect 0 0 80 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out14_[31..0]" (rect 83 251 163 266)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 256)(pt 168 256)(line_width 3))
+	)
+	(port
+		(pt 184 272)
+		(output)
+		(text "out15_[31..0]" (rect 0 0 80 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out15_[31..0]" (rect 83 267 163 282)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 272)(pt 168 272)(line_width 3))
+	)
+	(port
+		(pt 184 288)
+		(output)
+		(text "out16_[31..0]" (rect 0 0 80 15)(font "Comic Sans MS" (font_size 8)))
+		(text "out16_[31..0]" (rect 83 283 163 298)(font "Comic Sans MS" (font_size 8)))
+		(line (pt 184 288)(pt 168 288)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 304))
+	)
+)

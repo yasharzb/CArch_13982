@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="project">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Alu-test|alu:inst|lpm_mux1:result_mux|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_coc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Alu-test|alu:inst|shifter:shfiter|lpm_mux0:shift_mux|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_0qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Alu-test|alu:inst|BUSMUX:comp_mux|lpm_mux:$00000" CBX_FILE_NAME="mux_9oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Alu-test|alu:inst|comparator:inst9|BUSMUX:sel_min|lpm_mux:$00000" CBX_FILE_NAME="mux_9oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Alu-test|alu:inst|comparator:inst9|lpm_compare0:comparator|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_6mg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Alu-test|alu:inst|lpm_add_sub0:add-sub|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_3kh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Alu-test|alu:inst|shifter:shfiter|BUSMUX:shifted_mux|lpm_mux:$00000" CBX_FILE_NAME="mux_9oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Alu-test|alu:inst|shifter:shfiter|BUSMUX:str_mux|lpm_mux:$00000" CBX_FILE_NAME="mux_9oc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
